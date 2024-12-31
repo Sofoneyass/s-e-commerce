@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="POST" action="https://chapa-payment-gateway.com/checkout">
+        <!-- Add your payment details here -->
+        <input type="visible" name="amount" value="100">
+        <input type="" name="currency" value="ETB">
+        <input type="" name="description" value="Payment for Product XYZ">
+        <input type="" name="customer_name" value="John Doe">
+        <input type="" name="customer_email" value="john.doe@example.com">
+        
+        <!-- Add your Chapa public API key -->
+        <input type="hidden" name="public_key" value="YOUR_PUBLIC_API_KEY">
+        
+        <!-- Payment button -->
+        <button type="submit">Pay Now</button>
+      </form>
+    
+</body>
+</html>
